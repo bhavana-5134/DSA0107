@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    float b = a;
+
+    cout << "Implicit Conversion = " << b << endl;
+
+    float c = 5.75;
+    int d = (int)c;
+
+    cout << "Explicit Conversion = " << d << endl;
+
+    int x = 5, y = 2;
+
+    cout << "Integer Division = " << x / y << endl;
+    cout << "Float Division = " << (float)x / y << endl;
+
+    return 0;
+}
