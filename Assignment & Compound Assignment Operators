@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n = 20;
+
+    cout << "Initial Value = " << n << endl;
+
+    n += 5;
+    cout << "After += 5 : " << n << endl;
+
+    n -= 3;
+    cout << "After -= 3 : " << n << endl;
+
+    n *= 2;
+    cout << "After *= 2 : " << n << endl;
+
+    n /= 4;
+    cout << "After /= 4 : " << n << endl;
+
+    n %= 3;
+    cout << "After %= 3 : " << n << endl;
+
+    return 0;
+}
