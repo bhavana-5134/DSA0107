@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 50000;
+    long long b = 9876543210123;
+    unsigned int c = 4000000000;
+
+    cout << "Integer = " << a << endl;
+    cout << "Long Long = " << b << endl;
+    cout << "Unsigned Int = " << c << endl;
+
+    cout << "\nSize of int = " << sizeof(a) << " bytes" << endl;
+    cout << "Size of long long = " << sizeof(b) << " bytes" << endl;
+    cout << "Size of unsigned int = " << sizeof(c) << " bytes" << endl;
+
+    return 0;
+}
